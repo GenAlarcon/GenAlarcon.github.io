@@ -1,0 +1,22 @@
+html {
+    font-size: 16px;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 80%;
+        height: 100vh;
+        padding: 20px;
+        border: 1cm solid black;
+        margin: 2in;
+    }
+
+    .box {
+        width: 10em;
+        height: 5em;
+        font-size: 12pt;
+        border: 2mm dashed blue;
+    }
