@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 body {
   font-family: Arial, sans-serif;
   padding: 0;
+}
+
+/*INICIAR SESION*/
+
+.inicio-container {
+  max-width: 400px;
+  margin: 80px auto;
+  /* lo centra en la página */
+  background-color: rgba(255, 243, 211, 0.8);
+  /* opacidad del 80% */
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 120px;
+  /* ajusta el tamaño del logo */
+  height: auto;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #191919;
+  /* o el color corporativo */
 }
 
 h2 {
@@ -23,8 +69,8 @@ input {
 
 button {
   padding: 10px;
-  background: teal;
-  color: white;
+  background: #ffb22c;
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -34,3 +80,152 @@ button {
   color: red;
   font-size: 12px;
 }
+
+/*INICIAR SESION*/
+
+/*REGISTRAR USUARIO*/
+
+#registerForm select {
+  width: 100%;
+  display: inline-block;
+  margin-right: 3%;
+  margin-top: 10px;
+}
+
+.registro-container {
+  max-width: 400px;
+  margin: 80px auto;
+  /* lo centra en la página */
+  background-color: rgba(255, 243, 211, 0.8);
+  /* opacidad del 80% */
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/*REGISTRAR USUARIO*/
+
+/*FORMULARIO DE CONTACTO*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://s1.1zoom.me/big3/226/359710-blackangel.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Contenedor centrado con fondo solo detrás del formulario */
+.contact-container {
+  max-width: 400px;
+  margin: 80px auto;
+  /* lo centra en la página */
+  background-color: rgba(255, 243, 211, 0.8);
+  /* opacidad del 80% */
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Encabezado con logo */
+.contact-header img.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.contact-header h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #6a6a6a;
+}
+
+/* Inputs */
+.contact-form label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1d1d1d;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Botón */
+.btn-enviar {
+  margin-top: 15px;
+  background-color: #ffb22c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.btn-enviar:hover {
+  background-color: #ffb22c;
+}
+
+/*FORMULARIO DE CONTACTO*/
+
+/*NOTICIAS*/
+.titulo-noticias {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.noticia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  max-width: 900px;
+  background: rgba(255, 243, 211, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.noticia-texto {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.noticia-texto h2 {
+  margin-bottom: 10px;
+}
+
+.noticia-imagen img {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn-ver-nt1, 
+.btn-ver-nt2 {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background: ffb22c;
+  cursor: pointer;
+}
+
+.btn-vernt-nt1:hover,
+.btn-ver-nt2:hover {
+  background: #ffb22c;
+  color:#ffb22c;
+}
+
+/*NOTICIAS*/

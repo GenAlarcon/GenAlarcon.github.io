@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,10 +24,9 @@ img {
 /*BANNER*/
 .header {
     /*background-image: url(https://i.pinimg.com/1200x/1d/8d/b2/1d8db24b3990ca5beb73bc7d40e0b6fa.jpg);*/
-    background-image: 
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url(1.jpg);
-        /*url(https://i.pinimg.com/1200x/42/85/64/428564436559faf179177a5fa39fb7f7.jpg);*/
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://i.pinimg.com/1200x/42/85/64/428564436559faf179177a5fa39fb7f7.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +35,7 @@ img {
     min-height: 88vh;
     padding: 80px 0;
 }
+
 /*BANNER*/
 
 .menu {
@@ -129,4 +129,136 @@ img {
     background-color: #ffb22c;
 
 }
+
 /* BANNER */
+
+/*INICIAR SESION*/
+.btn-2 {
+    background-color: #ffb22c;
+    /* color del botón */
+    color: white;
+    /* color del texto */
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    /* opcional */
+    transition: 0.3s;
+    /* para efecto hover */
+}
+
+.btn-2:hover {
+    background-color: #ffb22c;
+}
+
+/*INICIAR SESION*/
+
+/*REGISTRAR USUARIO*/
+.btn-3 {
+    background-color: #ffb22c;
+    /* color del botón */
+    color: white;
+    /* color del texto */
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    /* opcional */
+    transition: 0.3s;
+    /* para efecto hover */
+}
+
+.btn-3:hover {
+    background-color: #ffb22c;
+}
+
+/*REGISTRAR USUARIO*/
+
+.botones-container {
+    display: flex;
+    /* Coloca los botones en fila */
+    justify-content: center;
+    /* Centra horizontalmente */
+    gap: 20px;
+    /* Separación entre los botones */
+    margin-top: 40px;
+    /* Separación del banner */
+}
+
+
+/*FORMULARIO*/
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    /* lo mueve a la derecha */
+    margin-top: 50px;
+    /* separa del contenido anterior */
+}
+
+.contact-content {
+    background-color: rgb(255, 243, 211);
+    text-align: center;
+    padding: 35px;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 18px 25px;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: black;
+    font-size: 17px;
+}
+
+::placeholder {
+    color: #000000;
+    font-size: 17px;
+}
+
+.btn-4 {
+
+    background-color: #ffb22c;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+/*.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link ul li > a {
+    font-size: 17px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.link ul li > a:hover {
+    color: #ffb22c;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+
+
+}*/
